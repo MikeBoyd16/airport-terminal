@@ -1,0 +1,20 @@
+JTDS Required
+
+
+
+Getting the PDXServices java program to work properly requires 4 steps.
+
+Step 1: Open up SQL Server Management Studio and attach the PDX database provided.
+
+Step 2: Upon starting Netbeans and opening this program, place the .jar file from the JTDS folder in the class path when prompted.
+
+Step 3: Right click on the program name -> Select properties -> Run -> VM Options -> Change which drive is shown in the file path (D, E, F, etc.) to the
+one associated with this flash drive.
+
+Step 4: In the SQLQueries Class, modify the url variable in the establishConnection() method to match the PC name of whatever computer you're connecting from.
+
+	String url ="jdbc:jtds:sqlserver://PCNAME/PDX;instance=MSSQLSERVER";
+
+
+
+If it still doesn't work, go back to VM options and change the portion "x86" to "x64"
