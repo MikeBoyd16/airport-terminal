@@ -3,7 +3,7 @@ An airport terminal interface. My Spring 2015 final project in CS162 (Computer S
 
 ## Features
 * Authentication system
-* Two interface modes: employee and admin
+* Two interface modes: user and admin
 * User interface contains:
   * Passenger Lookup
   * Flight Schedule
