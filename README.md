@@ -18,9 +18,7 @@ An airport terminal interface. My Spring 2015 final project in CS162 (Computer S
   * Repair Status
   * Employee Contact Info
   * Airline Contact Info
-* Supports connections to Microsoft SQL Server
-* Uses JTDS driver
-   
+* Supports connections to Microsoft SQL Server 
 
 <p>
   <img src="/images/PDX Terminal Interface.png" />
